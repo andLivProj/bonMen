@@ -11,6 +11,7 @@ import javax.persistence.Table;
 @Table(name="bone")
 public class Bone_DAO{
 	
+	//test push
 	@Id
 	@Column(name="idBone")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
